@@ -3,7 +3,7 @@
 
 ![awww](puppy.jpg)
 
-An atomic Autograd engine (with a bite! :)). Implements backpropagation (reverse-mode autodifferentiation) over a dynamically built Directed Acyclic Graph (DAG) and a small neural networks library on top of it with a PyTorch-like API. Both are tiny, with about 100 and 50 lines of code respectively. The DAG only operates over scalar values, so e.g. we dismantle each neuron into all of its individual tiny adds and multiplies. However, this is enough to build up entire deep neural nets doing binary classification, as the demo notebook shows.
+An atomic Autogradient engine (with a bite! :)). Implements backpropagation (reverse-mode autodifferentiation) over a dynamically built Directed Acyclic Graph (DAG) and a small neural networks library on top of it with a PyTorch-like API. Both are tiny, with about 100 and 50 lines of code respectively. The DAG only operates over scalar values, so e.g. we dismantle each neuron into all of its individual tiny adds and multiplies. However, this is enough to build up entire deep neural nets doing binary classification, as the demo notebook shows.
 
 ### Installation
 
