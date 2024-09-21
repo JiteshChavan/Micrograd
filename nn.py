@@ -17,7 +17,7 @@ class Neuron(Module):
         self.b = Value(0)
         self.nonlin = nonlin
 
-    # activation set to use tanh nonlinearity for now, relu is available for use as well
+    # activation set to use tanh nonlinearity for now, relu is available for use as well!
     def __call__(self, x):
         act = sum((wi*xi for wi,xi in zip(self.w, x)), self.b)
         return act.tanh() if self.nonlin else act
